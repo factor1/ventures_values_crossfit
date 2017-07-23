@@ -69,7 +69,10 @@
 <header>
 	<div class="row">
 		<div class="columns small-9 medium-4">
-			<h1 class="mainlogo"><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/assets/img/navigation_logo.png" alt="<?php get_bloginfo('name');?>"/></a></h1>
+			<h1 class="mainlogo"><a href="<?php echo get_option('home'); ?>/">
+				<img src="<?php the_field( "primary_logo", 'option' ); ?>" 
+					 alt="<?php get_bloginfo('name');?>"/>
+				</a></h1>
 		</div>
 		
 		<div class="columns large-8 show-for-large-up">

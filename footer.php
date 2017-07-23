@@ -12,7 +12,7 @@
 						</div>
 						
 						<div class="columns medium-6 crossfitjournal">
-							<a href="http://journal.crossfit.com/start.tpl?version=CFJ-white123x63" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/img/CrossFitJournal.png" alt="CrossFitJournal"/></a>
+							<a href="<?php the_field( "crossfit_journal_url", 'option' ); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/img/CrossFitJournal.png" alt="CrossFitJournal"/></a>
 						</div>
 					</div>
 
@@ -23,7 +23,7 @@
 					<div class="row">
 
 						<div class="columns medium-4 footerlogo show-for-small-only">
-							<a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/assets/img/footer_logo.png" alt="StoneHill-Footer-logo"/></a>
+							<a href="<?php echo get_option('home'); ?>/"><img src="<?php the_field( "secondary_logo", 'option' ); ?>" alt="<?php get_bloginfo('name');?>"/></a>
 						</div>	
 					
 						<div class="columns medium-4 contactinfo">
