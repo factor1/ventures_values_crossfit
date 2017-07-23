@@ -1,0 +1,188 @@
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
+header {
+	border-top:3px solid $primary-brand;
+}
+
+h1.mainlogo{
+	padding: 20px 0;
+	border: 0;
+	margin: 0;
+}
+
+/*------------------------------------*\
+    NAVIGATION
+\*------------------------------------*/
+
+header nav {}
+
+nav{
+	height: auto;
+	padding: 5px;	
+}
+
+nav ul{
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	position: relative;	
+	margin: 45px 0 0 0;
+}
+
+nav ul li a, nav ul li a:visited{
+	margin: 0;
+	padding: 5px 10px;
+	font:14px $headlinefont;
+	line-height: 22px;
+	color:$secondary-brand;
+	line-height: 14px;
+	text-transform: uppercase;
+	border:1px solid #fff;
+}
+
+nav ul li a:hover{
+	background:$primary-brand !important;
+	color:white;	
+}
+
+#menu-item-184 a, #menu-item-184 a:visited{
+	font-size:14.5px;
+	font-weight: 900;
+	color:$primary-brand;	
+}
+
+#menu-item-184 a:hover{
+	color:#fff;	
+}
+
+@media screen and (max-width: 800px) {
+	nav ul li a, nav ul li a:visited{
+		font:12px $headlinefont;
+		padding: 5px 5px;
+	}
+}
+
+
+/*------------------------------------*\
+    SUBNAV
+\*------------------------------------*/
+
+
+nav ul ul{
+	display:none;
+    position: absolute;
+    list-style:none;
+    padding:5;
+    margin:0;
+    top:24px;
+    left: -58px;
+    z-index:200;
+    width:200px;
+    text-align: center;
+    border-top: 0px;
+    border:1px solid #f2f2f2;
+}
+
+nav ul li:hover > ul {
+	display:block;
+	position: absolute;
+    background:white;
+    text-align:left;
+    margin-left: 0;
+    padding:18px 0 10px 0;
+    height:auto;
+    text-align: center;
+	-moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+nav ul li:visited > ul {
+	display:none;
+}
+
+
+header nav ul li ul li{
+    border:none;
+    height:auto;
+	text-decoration: none;
+	display: block;
+	width:100%;
+    text-align: center;
+    margin: 0 !important;
+}
+
+header nav ul li ul li a,
+header nav ul li ul li a:visited {	
+    display: block;
+    padding:10px;
+    margin: 0 !important;
+    border:0;
+	text-decoration: none;
+	font:14px $headlinefont;
+	line-height: 22px;
+}
+
+header nav ul li ul li:last-child a {
+	background: white;
+}
+
+#menu-item-93 ul.sub-menu{
+	left:-30px;
+}
+
+#menu-item-184 ul.sub-menu{
+	left:-45px;	
+}
+
+#menu-item-184 ul li a ,#menu-item-184 ul li a:visited {	
+	font:14px $headlinefont;
+	line-height: 22px;
+	color:$secondary-brand;
+	font-weight: normal;
+}
+
+
+/*------------------------------------*\
+    MOBILE NAV
+\*------------------------------------*/
+
+a.right-off-canvas-toggle{
+	top: 35px !important;
+	color:$secondary-brand;
+	z-index: 999;
+	padding: 10px;
+	position:relative; 
+}
+
+.menubutton{
+	text-align: right;	
+}
+
+.right-off-canvas-menu{
+	background: $secondary-brand;
+}
+
+.right-off-canvas-menu ul{
+	margin: 35px 0 0 0;
+	padding: 0 15px;
+}
+
+.right-off-canvas-menu ul li{
+	margin: 0 0 15px 0;
+}
+
+.right-off-canvas-menu a, .right-off-canvas-menu a:visited{
+	color:white;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+.right-off-canvas-menu a:hover{
+		
+}

@@ -1,0 +1,142 @@
+/*------------------------------------*\
+    SIDEBAR
+\*------------------------------------*/
+
+
+#main {
+	min-height: 700px;
+	max-width: 1000px;
+}
+
+#cloudbox_wrap {
+	float: right;
+	margin-top: 55px;
+	margin-bottom: 25px;
+	max-width: 305px;
+}
+
+#cloudbox_wrap div {margin-left: 15px;}
+
+
+
+.sidebar ul{
+	background:#F1F2F2;
+	padding: 25px 15px 10px 15px;
+	margin: 10px 0 0 0;
+}
+
+.sidebar ul li{
+	list-style-type: none;
+	display: block;
+	padding: 0 0 2px 0;
+	margin: 0;
+}
+
+.sidebar ul li a, 
+.sidebar ul li a:visited{
+	font:14px $headlinefont;
+	color:$tertiary-brand;
+	line-height: 17px;
+	display: block;
+	border: 1px solid #f1f2f2;
+	text-transform: uppercase;
+	padding: 8px 20px;
+	white-space: pre-line;
+}
+
+.sidebar ul li a:hover {
+	border-color:$primary-brand !important;
+	color:$primary-brand;	
+}
+
+.sub_menu li.parentitem {
+	margin-bottom: 10px;
+}
+
+.sub_menu li.parentitem a,
+.sub_menu li.parentitem a:visited {
+	color: $primary-brand;
+	display: block;
+	border-bottom: 1px solid $primary-brand;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+h4.widget-title{
+	display: none;
+}
+
+/*  */
+@media screen and (max-width: 800px) {	
+	.sidebar ul{
+		padding: 20px 10px 7px 10px;
+	}
+	
+	.sidebar ul li a, .sidebar ul li a:visited{
+		font:11px $headlinefont;
+		padding: 3px 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {	
+	
+	.sidebar ul{
+		padding: 25px 15px 10px 15px;
+	}	
+	
+	.sidebar ul li a, .sidebar ul li a:visited{
+		font:14px $headlinefont;
+		padding: 3px 20px;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    SOC BAR
+\*------------------------------------*/
+
+.socbar{
+		background: url(../img/green-bg.jpg) center center no-repeat;
+		background-size: cover;
+		color:white;
+		padding: 10px 0;
+		margin: 50px 0 0 0;
+}
+
+h2.follow{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.follow i{
+	color: white;
+	padding: 0 15px;
+}
+
+.crossfitjournal{
+	padding-top:5px;
+	text-align: right;
+}
+
+/* smartphone */
+@media screen and (max-width: 640px) {
+	
+	.socbar{
+		text-align: center;
+	}
+	
+	.follow i{
+		padding: 0 10px;
+	}
+
+	.crossfitjournal{
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	
+}
+

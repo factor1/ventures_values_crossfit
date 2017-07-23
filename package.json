@@ -1,0 +1,35 @@
+{
+  "name": "ironhill-crossfit",
+  "version": "1.0.0",
+  "description": "Custom theme for ironhill crossfit",
+  "main": "index.php",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.5.3",
+    "gulp-zip": "^3.2.0",
+    "imagemin": "^5.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mattada@bitbucket.org/factr1/ironhill-crossfit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/factr1/ironhill-crossfit#readme"
+}

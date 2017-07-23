@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    HERO - HOME
+\*------------------------------------*/
+
+.hero{
+	margin: 0 0 50px 0;
+	height: 600px;
+	overflow-y: hidden;
+}
+
+@media screen and (max-width: 962px) {
+				.hero {height: 500px;}
+}
+
+@media screen and (max-width: 768px) {
+				.hero {height: 400px;}
+}
+
+@media screen and (max-width: 600px) {
+				.hero {height: 300px;}
+}

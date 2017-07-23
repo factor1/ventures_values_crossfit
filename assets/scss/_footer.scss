@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+footer {
+	background: $secondary-brand;
+	color:#939598;
+	padding: 25px 0;
+}
+
+.footerp, .footerp a, .footerp a:visited{
+	color:#939598;
+	font:12px $headlinefont;
+	padding-top: 7px;
+	padding-bottom: 0;
+}
+
+.footerlogo{
+	text-align: center;
+}
+
+.consult{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.footerbutton, .footerbutton:visited{
+	color:white;
+	font:14px $headlinefont;
+	padding: 8px 40px;
+}
+
+.footerbutton:hover{
+	color:$secondary-brand;
+	background: white;
+}
+
+
+#map_canvas {
+	width:100%;
+	height:600px;
+	z-index:0;
+	margin-top: 50px;
+	display:block;
+}
+
+
+
+/* smartphone */
+@media screen and (max-width: 640px) {
+	
+	.footerlogo {
+		margin: 20px 0;
+		text-align: center;
+	}
+	}

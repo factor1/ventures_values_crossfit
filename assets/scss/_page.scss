@@ -1,0 +1,304 @@
+/*------------------------------------*\
+    HERO - PAGE
+\*------------------------------------*/
+
+.pagehero{
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+/*------------------------------------*\
+    PAGE - MISC
+\*------------------------------------*/
+
+.testimonial{
+	background: url(../img/green-bg.jpg) center center no-repeat;
+	background-size:cover;
+	text-align: center;
+	padding: 50px;	
+	margin: 10px 0 30px 0;
+	width: 100%;
+}
+
+h3.testimonialquote{
+	color:white;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 100;
+}
+
+p.testimonialsource{
+	color:white;
+	font-weight: 700;
+	font-size: 18px;
+	font-style: italic;
+	padding: 15px 0 0 0;
+	margin: 0;
+}
+
+.fourohfour{
+	text-align: center;
+	padding: 80px;
+}
+
+.fourohfour h1{
+	font-size: 75px;
+	border-bottom: none;
+}
+
+
+.fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*  */
+@media screen and (max-width: 400px) {	
+	.testimonial{
+		padding: 20px;
+	}
+	
+	.fourohfour{
+		padding: 50px;
+	}
+}
+
+
+
+
+/*------------------------------------*\
+    LEARN MORE
+\*------------------------------------*/
+
+.learnmore{
+	background: url(../img/green-bg.jpg) center center no-repeat;
+	background-size:cover;
+	padding: 25px 50px;
+}
+
+h2.tellmemore{
+	color:white;
+	font-size: 25px;
+	line-height: 32px;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.learncolumn{
+	padding-top: 5px;
+	text-align: center;
+}
+
+.learnbutton, .learnbutton:visited{
+	color:white;
+	font:20px $headlinefont;
+	line-height: 32px;	
+	padding: 10px 40px;
+}
+
+.learnbutton:hover{
+	color:$primary-brand;
+	background:#ffffff;
+}
+
+
+@media screen and (max-width: 770px) {
+	.learnmore{text-align: center;}
+	h2.tellmemore{margin-bottom: 20px;}
+}
+
+
+/*  */
+@media screen and (max-width: 400px) {	
+	.learnbutton{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 10px 20px;
+		margin: 10px 0 0 0;
+	}
+}
+
+
+
+/*------------------------------------*\
+    MEMBERSHIP PAGE
+\*------------------------------------*/
+
+
+article ul.membership-grid, article ul.membership-grid li{
+	margin: 0;
+}
+
+.member-header{
+	margin: 0 0 55px 0;
+}
+
+.member-pagetitle{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px 0;
+	margin: 0;
+	border: none;
+}
+
+ul.membership-grid, ul.membership-grid li{
+	text-align: center !important;
+}
+
+article ul.membership-grid li .membership-box{
+	border: 1px solid #D1D3D4;
+	background: #F1F2F2;
+	text-align: center;
+	padding: 10px 10px 25px 10px !important;
+	margin: 20px 0 !important;
+}
+
+article ul.membership-grid li .membership-box img{
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.member-title{
+	color: #6D6E71;
+	padding: 10px 0 0 0;
+	margin: 0;
+	font:2em $headlinefont;
+}
+
+.member-price{
+	color: #6D6E71;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+
+
+
+/*------------------------------------*\
+    FEATURED ITEMS
+\*------------------------------------*/
+
+.featureditems{
+	padding: 50px 0 0 0;
+}
+
+/*--.featureditems a, .featureditems a:visited{
+	opacity:1;
+	transition: 300ms ease-in;
+}
+
+.featureditems a:hover{
+	opacity: 0;
+	transition: 300ms ease-out;
+}
+
+
+.whatiscrossfit{
+	background:url(../img/feature02red.jpg) center center no-repeat;
+	background-size:contain;	
+}
+
+.wodlink{
+	background:url(../img/feature03red.jpg) center center no-repeat;
+	background-size:contain;
+}--*/
+
+
+.featureditems{
+	left:-10px;
+}
+
+.featureditems figure {
+	position: relative;
+	width: 310px;
+	height: 250px;
+}
+
+.featureditems figcaption {
+	position: absolute;
+	top: 0px;
+	width: 310px;
+	height: 250px;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: all .4s ease-in;
+	-moz-transition: all .4s ease-in;
+	-ms-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+}
+
+.featureditems figcaption:hover {
+	opacity: 1;
+	-webkit-transition: all .4s ease-in;
+	-moz-transition: all .4s ease-in;
+	-ms-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+	transition: all .4s ease-in;
+}
+
+
+
+/*  ipad */
+@media screen and (max-width: 1024px) {	
+	figure{
+	 	text-align: center !important;
+	 }
+	 
+	.featureditems .columns{
+	 	margin: 0 0 30px 0;
+	 }
+}
+
+
+
+/* smartphone */
+@media screen and (max-width: 640px) {
+
+	.contactinfo{
+		padding: 0 30px;
+	}
+	
+	.consult{
+		margin: 20px 0;
+		text-align: center;
+	}
+	
+}
+
+
+
+
+/*  narrow phone*/
+@media screen and (max-width: 400px) {	
+	figure{
+	 	width: 90% !important;
+	 	height: auto;
+	 }	
+	 
+	figcaption{
+	 	width: 100% !important;
+	 	height: auto;
+	 }	
+}
+
+

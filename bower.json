@@ -1,0 +1,22 @@
+{
+  "name": "ironhill-crossfit",
+  "description": "Custom theme for ironhill crossfit",
+  "main": "index.php",
+  "authors": [
+    "mattada <mattadams@factor1studios.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sugar": "more-sugar#^1.0.5",
+    "font-awesome": "fontawesome#^4.6.2"
+  }
+}
