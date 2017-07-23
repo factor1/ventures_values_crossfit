@@ -12,8 +12,19 @@ add_filter( 'the_content', 'wpautop' , 12);
 
 
 
+
 	
 //Customize Wordpress Admin
+
+
+// Add ACF options page
+ 
+ 
+if ( function_exists( 'acf_add_options_page' ) ) {
+    acf_add_options_page('Site Options');
+}
+
+
 
 	// add login logo
 	function custom_loginlogo() {
@@ -38,7 +49,7 @@ add_filter( 'the_content', 'wpautop' , 12);
 	
 	// add custom footer text
 	function modify_footer_admin () {
-		echo 'Created by <a href="http://factor1studios.com">factor1</a>. ';
+		echo 'Created by <a href="https://factor1studios.com">factor1</a>. ';
 		echo 'Powered by <a href="http://WordPress.org">WordPress</a>.';
 		}
 
@@ -82,6 +93,7 @@ $image_set = get_option( 'image_default_link_type' );
 	register_nav_menus( array(
 		'primary' => __( 'Primary Navigation', 'f1' ),
 		'mobile' => __( 'Mobile Navigation', 'f1' ),
+		'footer' => __( 'Footer Navigation', 'f1' ),
 	) );
 }
 
@@ -169,7 +181,6 @@ function the_sub_menu()
 	add_action( 'wp_head', 'f1_head' );
 	function f1_head() {
 	?>
-	<meta name="author" content="Factor1">
 	<meta name="rating" content="general"> 
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
